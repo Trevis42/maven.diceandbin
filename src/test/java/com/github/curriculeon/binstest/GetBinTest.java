@@ -25,7 +25,7 @@ public class GetBinTest {
     public void test2() {
         // given
         Bins bins = new Bins();
-        Integer expected = 1;
+        Integer expected = 4;
 
         // when
         Bin bin = bins.getBin(expected);

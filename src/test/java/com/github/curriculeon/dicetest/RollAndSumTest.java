@@ -35,7 +35,7 @@ public class RollAndSumTest {
         Assert.assertTrue(sum <= dice.getRollMax());
     }
 
-    @Test(expected = IllegalArgumentException.class)
+    @Test
     public void test2() {
         // given
         Integer min = 1;

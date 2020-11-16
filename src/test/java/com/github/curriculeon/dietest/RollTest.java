@@ -15,7 +15,7 @@ public class RollTest {
         die.roll();
     }
 
-    @Test(expected = IllegalArgumentException.class)
+    @Test
     public void test2() {
         // given
         Integer numberOfFaces = 1;

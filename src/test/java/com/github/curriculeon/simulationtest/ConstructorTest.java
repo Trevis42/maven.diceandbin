@@ -5,7 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class ConstructorTest {
-    @Test
+    @Test(expected = NullPointerException.class)
     public void test0() {
         // given
         Integer numberOfDie = null;

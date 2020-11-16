@@ -27,14 +27,12 @@ public class ConstructorTest {
         test(1, null);
     }
 
-
-    @Test(expected = NegativeArraySizeException.class)
+    @Test
     public void test4() {
         test(2, 1);
     }
 
-
-    @Test(expected = NegativeArraySizeException.class)
+    @Test
     public void test5() {
         test(3, 2);
     }
@@ -48,24 +46,24 @@ public class ConstructorTest {
 
     @Test
     public void test7() {
-        test(2,2);
+        test(2, 2);
     }
 
 
     @Test
     public void test8() {
-        test(1,2);
+        test(1, 2);
     }
 
 
     @Test
     public void test9() {
-        test(1,3);
+        test(1, 3);
     }
 
     @Test
     public void test10() {
-        test(2,3);
+        test(2, 3);
     }
 
 }
